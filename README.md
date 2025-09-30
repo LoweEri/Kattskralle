@@ -13,7 +13,8 @@ Kattskrälle är ett Chrome-tillägg som gör Flashback-forum lite trevligare oc
   - Bilder och videofiler från vissa bildlänkar  
   - YouTube-videor  
   - Spotify-länkar
-- ↪️ **Hoppa över bekräftelsesidor** – slipp mellanliggande bekräftelsesidor när du öppnar externa länkar.  
+- ↪️ **Hoppa över bekräftelsesidor** – slipp mellanliggande bekräftelsesidor när du öppnar externa länkar.
+- **Markera TS** - markerar trådstartarens inlägg genom att lägga till (ts) direkt efter användarnamnet.
 [Se Screenshots](#screenshots)
 
 ### Installation  
@@ -55,7 +56,8 @@ Kattskrälle is a Chrome extension that makes the Flashback forum a bit more ple
   - Images and videos from supported hosts  
   - YouTube videos  
   - Spotify links
-- ↪️ **Bypass confirmation sites** – skip intermediate confirmation pages when opening external links.  
+- ↪️ **Bypass confirmation sites** – skip intermediate confirmation pages when opening external links.
+- **Mark TS** - marks the thread starter’s posts by adding (ts) right after their username.
   [See Screenshots](#screenshots)
 
 ### Installation  
@@ -89,4 +91,5 @@ See [LICENSE](LICENSE) for the full text.
 ![preview](/images/Preview.png) 
 ![Ignore](/images/Ignore.png) 
 ![settings](/images/settings.png)
+
 
