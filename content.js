@@ -1153,14 +1153,13 @@ function getCookie(name) {
         ?.split("=")[1] || "";
 }
 
+//this new version uses Max-Age instead of Expires, and adds SameSite and Secure attributes - Thank you Mr.RedHat for the suggestion!
 function setCookie(name, value, days) {
-    let expires = "";
+    let maxAge = "";
     if (days) {
-        let date = new Date();
-        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-        expires = "; expires=" + date.toUTCString();
+        maxAge = days * 24 * 60 * 60; 
     }
-    document.cookie = name + "=" + value + "; path=/" + expires;
+    document.cookie = `${name}=${value}; Path=/; Max-Age=${maxAge}; SameSite=Lax; Secure`;
 }
 
 function fixMultiQuote() {
